@@ -2,11 +2,11 @@
 * Sistema que recebe cor de uma API para customizar a etiqueta de um elemento na tela
 * Apenas as cores: Vermelho, Azul, Amarelo, Branco, Preto e Verde
 * */
-public class Etiqueta {
+public class Imagem {
     ICor cor;
     CorAdapter adapter;
 
-    public Etiqueta() {
+    public Imagem() {
         cor = new CorRgb();
         adapter = new CorAdapter(cor);
     }
